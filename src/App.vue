@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
+    <div
+      style="margin-top:200px; color:white; font-size:30px; font-weight:bold"
+    >This site is under maintenance!</div>
+
+    <!-- <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
           <img src="./assets/img/virus.png" class="mr-10" alt />
@@ -56,8 +60,8 @@
           </div>
         </div>
       </div>
-    </nav>
-    <router-view />
+    </nav>-->
+    <!-- <router-view /> -->
   </div>
 </template>
 
@@ -85,5 +89,4 @@
 </style>
 <script>
 require("./assets/js/load/header.js");
-
 </script>
