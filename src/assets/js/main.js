@@ -6,8 +6,8 @@ $(document).ready(function () {
         $(this).attr("class", "enabled heyo");
         $description.addClass("active");
         $title = $(this).attr("title");
-        $case = $(this).attr("case");
-        $dead = $(this).attr("dead");
+        $case = $(this).attr("cases");
+        $dead = $(this).attr("deaths");
         $recovered = $(this).attr("recovered");
         $description.html('<p class="is-size-4 has-text-centered">' + $title + '</p><div><p class="has-text-danger">' + $case + '&nbsp;&nbsp;CONFIRMED</p></div><div><p class="has-text-grey-lighter">' + $dead + '&nbsp;&nbsp;DEATHS</p></div><div><p class="has-text-primary">' + $recovered + '&nbsp;&nbsp;RECOVERED</p></div>');
     }, function () {
@@ -30,9 +30,9 @@ $(document).ready(function () {
         modal.style.display = "block";
     };
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-        modal.style.display = "none";
-    };
+    // span.onclick = function () {
+    //     modal.style.display = "none";
+    // };
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
         if (event.target == modal) {
@@ -45,9 +45,9 @@ $(document).ready(function () {
     btn_faq.onclick = function () {
         modal_faq.style.display = "block";
     };
-    span_faq.onclick = function () {
-        modal_faq.style.display = "none";
-    };
+    // span_faq.onclick = function () {
+    //     modal_faq.style.display = "none";
+    // };
     window.onclick = function (event) {
         if (event.target == modal_faq) {
             modal_faq.style.display = "none";
