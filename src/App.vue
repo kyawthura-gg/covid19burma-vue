@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div
-      style="margin-top:200px; color:white; font-size:30px; font-weight:bold"
-    >This site is under maintenance!</div>
-
-    <!-- <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-black is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
           <img src="./assets/img/virus.png" class="mr-10" alt />
@@ -25,12 +25,11 @@
 
       <div id="navbarBasicExample" class="is-black navbar-menu">
         <div class="navbar-start hover-anmiated">
-          <a class="navbar-item" href="/">Home</a>
-          <a class="navbar-item" href="/cluster">Cluster</a>
-          <a class="navbar-item" href="/news">News</a>
-          <a class="navbar-item" href="/graphs">Graphs</a>
+          <router-link class="navbar-item" to="/">Home</router-link>
+          <router-link class="navbar-item" to="/cluster">Cluster</router-link>
+          <router-link class="navbar-item" to="/graphs">Graphs</router-link>
 
-          <div class="navbar-item dropdown">
+          <!-- <div class="navbar-item dropdown">
             <div class="dropdown-trigger">
               <button class="button custom-button">
                 <span>More</span>
@@ -49,19 +48,19 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
-        <div class="navbar-end">
+        <!-- <div class="navbar-end">
           <div class="navbar-item">
             <div class="bottom-box" id="id_disclaimer">Disclaimer</div>
           </div>
           <div class="navbar-item">
             <div class="bottom-box" id="id_faq">FAQs</div>
           </div>
-        </div>
+        </div> -->
       </div>
-    </nav>-->
-    <!-- <router-view /> -->
+    </nav>
+    <router-view />
   </div>
 </template>
 
@@ -89,4 +88,5 @@
 </style>
 <script>
 require("./assets/js/load/header.js");
+require("./assets/js/main.js");
 </script>
