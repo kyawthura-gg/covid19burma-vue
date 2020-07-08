@@ -2,32 +2,24 @@
   <canvas id="reportDate" width="400" height="400"></canvas>
 </template>
 <script>
+var byStateTitle = "Confirmed cases by states";
+var dailyTitle = "Daily Cases";
+var confirmed = "Confirmed";
+var deaths = "Deaths";
+var recovered = "Recovered";
 var DateConfirm = new Array();
 var DateLabels = new Array();
 var DateDeaths = new Array();
 var DateRecovered = new Array();
-var urlDate = "http://covid19burma.epizy.com/reportByDate";
+var urlDate = "https://thantthet.github.io/covid19-api/data.json";
 $(document).ready(function() {
   $.get(urlDate, function(response) {
-    response.forEach(function(data) {
-      const d = new Date(data.date_confirm);
-      const dtf = new Intl.DateTimeFormat("en", {
-        year: "numeric",
-        month: "short",
-        day: "2-digit",
-      });
-      const [
-        { value: mo },
-        ,
-        { value: da },
-        ,
-        { value: ye },
-      ] = dtf.formatToParts(d);
-      var confirm_date = `${da} ${mo}`;
-      DateConfirm.push(data.confirm_case);
-      DateLabels.push(confirm_date);
-      DateDeaths.push(data.deaths);
-      DateRecovered.push(data.recovered);
+    var caseTime = response.cases_time_series;
+    caseTime.forEach(function(data) {
+      DateConfirm.push(data.totalconfirmed);
+      DateLabels.push(data.date);
+      DateDeaths.push(data.totaldeceased);
+      DateRecovered.push(data.totalrecovered);
     });
     var ctx = document.getElementById("reportDate").getContext("2d");
     var myChart = new Chart(ctx, {
@@ -96,4 +88,5 @@ $(document).ready(function() {
     });
   });
 });
+export default {};
 </script>
