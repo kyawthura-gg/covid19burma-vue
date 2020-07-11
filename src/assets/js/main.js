@@ -26,9 +26,9 @@ $(document).ready(function () {
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close_disclaimer")[0];
     // When the user clicks the button, open the modal
-    btn.onclick = function () {
-        modal.style.display = "block";
-    };
+    // btn.onclick = function () {
+    //     modal.style.display = "block";
+    // };
     // When the user clicks on <span> (x), close the modal
     // span.onclick = function () {
     //     modal.style.display = "none";
@@ -42,9 +42,9 @@ $(document).ready(function () {
     var modal_faq = document.getElementById("id_faq_modal");
     var btn_faq = document.getElementById("id_faq");
     var span_faq = document.getElementsByClassName("close_faq")[0];
-    btn_faq.onclick = function () {
-        modal_faq.style.display = "block";
-    };
+    // btn_faq.onclick = function () {
+    //     modal_faq.style.display = "block";
+    // };
     // span_faq.onclick = function () {
     //     modal_faq.style.display = "none";
     // };
