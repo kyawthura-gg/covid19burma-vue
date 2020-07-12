@@ -12,8 +12,8 @@ const routes = [{
     component: Home
   }, {
     path: "/cluster",
-    name: "Graphs",
-    component: Graphs
+    name: "Cluster",
+    component: Cluster
   }, {
     path: "/graphs",
     name: "Graphs",
