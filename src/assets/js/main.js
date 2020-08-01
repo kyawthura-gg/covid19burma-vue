@@ -1,24 +1,5 @@
 $(document).ready(function () {
-    // Map hover
-    $description = $(".description");
-    $case = $(".case");
-    $("path").hover(function () {
-        $(this).attr("class", "enabled heyo");
-        $description.addClass("active");
-        $title = $(this).attr("title");
-        $case = $(this).attr("cases");
-        $dead = $(this).attr("deaths");
-        $recovered = $(this).attr("recovered");
-        $description.html('<p class="is-size-4 has-text-centered">' + $title + '</p><div><p class="has-text-danger">' + $case + '&nbsp;&nbsp;CONFIRMED</p></div><div><p class="has-text-grey-lighter">' + $dead + '&nbsp;&nbsp;DEATHS</p></div><div><p class="has-text-primary">' + $recovered + '&nbsp;&nbsp;RECOVERED</p></div>');
-    }, function () {
-        $description.removeClass("active");
-    });
-    $(document).on("mousemove", function (e) {
-        $description.css({
-            left: e.pageX + 20,
-            top: e.pageY - 70
-        });
-    });
+
     // Get the modal
     var modal = document.getElementById("id_disclaimer_modal");
     // Get the button that opens the modal

@@ -26,27 +26,25 @@
                   <span class="case-font">
                     <i class="fas fa-arrow-up fa-xs"></i>&nbsp;
                   </span>
-                  <label class="case-font" id="confirmed">
-                    {{ this.cases.td_confirmed }}
-                  </label>
+                  <label class="case-font" id="confirmed">{{ this.cases.td_confirmed }}</label>
                   <p>Confirmed 🤕</p>
                 </div>
                 <div>
                   <span class="death-font">
                     <i class="fas fa-arrow-up fa-xs"></i>&nbsp;
                   </span>
-                  <label class="death-font" id="deaths">
-                    {{ this.cases.td_deaths }}
-                  </label>
+                  <label class="death-font" id="deaths">{{ this.cases.td_deaths }}</label>
                   <p>Deaths 💔</p>
                 </div>
                 <div>
                   <span class="recover-font">
                     <i class="fas fa-arrow-up fa-xs"></i>&nbsp;
                   </span>
-                  <label class="recover-font" id="recovered">{{
+                  <label class="recover-font" id="recovered">
+                    {{
                     this.cases.td_recovered
-                  }}</label>
+                    }}
+                  </label>
                   <p>Recovered 🤩</p>
                 </div>
               </div>
@@ -120,20 +118,22 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import AOS from "@/assets/js/aos.js";
+import * as MainJs from "@/assets/js/main.js";
 import ReportByDate from "@/components/ReportByDate.vue";
 import Chart from "@/assets/js/chart.min.js";
 import { CountUp } from "@/assets/js/counterup.js";
 import _ from "lodash";
+// require("");
 AOS.init();
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    HelloWorld
   },
   name: "Home",
   components: {
-    ReportByDate,
+    ReportByDate
   },
   data() {
     return {
@@ -143,10 +143,10 @@ export default {
         recovered: 0,
         td_confirmed: 0,
         td_deaths: 0,
-        td_recovered: 0,
+        td_recovered: 0
       },
       fullscreenLoading: false,
-      states: "",
+      states: ""
     };
   },
   mounted() {
@@ -155,13 +155,13 @@ export default {
   computed: {
     statesOrder: function() {
       return _.orderBy(this.states, "confirmed", "desc");
-    },
+    }
   },
   methods: {
     async fetchCases() {
       this.axios
         .get(`https://thantthet.github.io/covid19-api/data.json`)
-        .then((response) => {
+        .then(response => {
           var total = response.data.statewise[0];
           this.states = response.data.statewise;
           this.states.order;
@@ -172,7 +172,7 @@ export default {
           this.cases.td_deaths = total.deltadeaths;
           this.cases.td_recovered = total.deltarecovered;
           const options = {
-            duration: 5,
+            duration: 5
           };
           var total = this.cases.confirmed;
           var deaths = this.cases.deaths;
@@ -187,7 +187,7 @@ export default {
           var active = new CountUp("active", active, options);
           active.start();
         });
-    },
-  },
+    }
+  }
 };
 </script>
