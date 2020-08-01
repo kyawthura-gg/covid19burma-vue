@@ -5,7 +5,9 @@ import store from "./store";
 import VueAxios from "vue-axios";
 import axios from "axios";
 import MyanmarMap from "@/components/MyanmarMap.vue";
+import VCharts from 'v-charts';
 
+Vue.use(VCharts)
 Vue.config.productionTip = false;
 Vue.component("MyanmarMap", MyanmarMap);
 Vue.use(VueAxios, axios);
