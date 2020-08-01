@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <nav
-      class="navbar is-black is-fixed-top"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
           <img src="./assets/img/virus.png" class="mr-10" alt />
@@ -28,6 +24,7 @@
           <router-link class="navbar-item" to="/">Home</router-link>
           <router-link class="navbar-item" to="/cluster">Cluster</router-link>
           <router-link class="navbar-item" to="/graphs">Graphs</router-link>
+          <router-link class="navbar-item" to="/about">About Us</router-link>
 
           <!-- <div class="navbar-item dropdown">
             <div class="dropdown-trigger">
@@ -48,7 +45,7 @@
                 </a>
               </div>
             </div>
-          </div> -->
+          </div>-->
         </div>
         <!-- <div class="navbar-end">
           <div class="navbar-item">
@@ -57,7 +54,7 @@
           <div class="navbar-item">
             <div class="bottom-box" id="id_faq">FAQs</div>
           </div>
-        </div> -->
+        </div>-->
       </div>
     </nav>
     <router-view />
@@ -88,5 +85,4 @@
 </style>
 <script>
 require("./assets/js/load/header.js");
-require("./assets/js/main.js");
 </script>
