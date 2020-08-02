@@ -123,7 +123,6 @@ import ReportByDate from "@/components/ReportByDate.vue";
 import Chart from "@/assets/js/chart.min.js";
 import { CountUp } from "@/assets/js/counterup.js";
 import _ from "lodash";
-// require("");
 AOS.init();
 
 export default {
