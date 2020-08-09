@@ -1,1097 +1,1114 @@
 {
+    "categories": [{
+            "name": "Male",
+            "keyword": {},
+            "base": "Male"
+        },
+        {
+            "name": "Female",
+            "keyword": {},
+            "base": "Female"
+        },
+        {
+            "name": "Unknown",
+            "keyword": {},
+            "base": "Unknown"
+        }
+
+    ],
     "nodes": [{
             "case": 1,
-            "gender": "none",
+            "category": 2,
             "age": "36",
             "value": 15
         }, {
             "case": 1,
-            "gender": "Male",
+            "category": 0,
             "age": "36",
             "value": 30
         }, {
             "case": 2,
-            "gender": "Male",
+            "category": 0,
             "age": "26",
             "value": 15
         },
         {
             "case": 3,
-            "gender": "Male",
+            "category": 0,
             "age": "26",
             "value": 15
         },
         {
             "case": 4,
-            "gender": "Male",
+            "category": 0,
             "age": "33",
             "value": 15
         },
         {
             "case": 5,
-            "gender": "Male",
+            "category": 0,
             "age": "69",
             "value": 15
         },
         {
             "case": 6,
-            "gender": "Male",
+            "category": 0,
             "age": "29",
             "value": 15
         },
         {
             "case": 7,
-            "gender": "Female",
+            "category": 1,
             "age": "58",
             "value": 15
         },
         {
             "case": 8,
-            "gender": "Female",
+            "category": 1,
             "age": "60",
             "value": 30
         },
         {
             "case": 9,
-            "gender": "Male",
+            "category": 0,
             "age": "44",
             "value": 15
         },
         {
             "case": 10,
-            "gender": "Male",
+            "category": 0,
             "age": "45",
             "value": 15
         },
         {
             "case": 11,
-            "gender": "Female",
+            "category": 1,
             "age": "66",
             "value": 15
         },
         {
             "case": 12,
-            "gender": "Male",
+            "category": 0,
             "age": "65",
             "value": 15
         },
         {
             "case": 13,
-            "gender": "Female",
+            "category": 1,
             "age": "61",
             "value": 15
         },
         {
             "case": 14,
-            "gender": "Male",
+            "category": 0,
             "age": "24",
             "value": 15
         },
         {
             "case": 15,
-            "gender": "Female",
+            "category": 1,
             "age": "45",
             "value": 15
         },
         {
             "case": 16,
-            "gender": "Female",
+            "category": 1,
             "age": "63",
             "value": 15
         },
         {
             "case": 17,
-            "gender": "Male",
+            "category": 0,
             "age": "47",
             "value": 15
         },
         {
             "case": 18,
-            "gender": "Male",
+            "category": 0,
             "age": "10",
             "value": 15
         },
         {
             "case": 19,
-            "gender": "Female",
+            "category": 1,
             "age": "8",
             "value": 15
         },
         {
             "case": 20,
-            "gender": "Female",
+            "category": 1,
             "age": "18",
             "value": 15
         },
         {
             "case": 21,
-            "gender": "Female",
+            "category": 1,
             "age": "24",
             "value": 15
         },
         {
             "case": 22,
-            "gender": "Female",
+            "category": 1,
             "age": "51",
             "value": 15
         },
         {
             "case": 23,
-            "gender": "Female",
+            "category": 1,
             "age": "58",
             "value": 15
         },
         {
             "case": 24,
-            "gender": "Male",
+            "category": 0,
             "age": "32",
             "value": 30
         },
         {
             "case": 25,
-            "gender": "Male",
+            "category": 0,
             "age": "55",
             "value": 15
         },
         {
             "case": 26,
-            "gender": "Female",
+            "category": 1,
             "age": "56",
             "value": 15
         },
         {
             "case": 27,
-            "gender": "Female",
+            "category": 1,
             "age": "24",
             "value": 15
         },
         {
             "case": 28,
-            "gender": "Male",
+            "category": 0,
             "age": "63",
             "value": 15
         },
         {
             "case": 29,
-            "gender": "Male",
+            "category": 0,
             "age": "26",
             "value": 15
         },
         {
             "case": 30,
-            "gender": "Female",
+            "category": 1,
             "age": "58",
             "value": 15
         },
         {
             "case": 31,
-            "gender": "Female",
+            "category": 1,
             "age": "49",
             "value": 15
         },
         {
             "case": 32,
-            "gender": "Male",
+            "category": 0,
             "age": "38",
             "value": 15
         },
         {
             "case": 33,
-            "gender": "Female",
+            "category": 1,
             "age": "29",
             "value": 15
         },
         {
             "case": 34,
-            "gender": "Male",
+            "category": 0,
             "age": "20",
             "value": 30
         },
         {
             "case": 35,
-            "gender": "Male",
+            "category": 0,
             "age": "24",
             "value": 15
         },
         {
             "case": 36,
-            "gender": "Male",
+            "category": 0,
             "age": "33",
             "value": 15
         },
         {
             "case": 37,
-            "gender": "Male",
+            "category": 0,
             "age": "44",
             "value": 15
         },
         {
             "case": 38,
-            "gender": "Female",
+            "category": 1,
             "age": "78",
             "value": 15
         },
         {
             "case": 39,
-            "gender": "Male",
+            "category": 0,
             "age": "85",
             "value": 30
         },
         {
             "case": 40,
-            "gender": "Female",
+            "category": 1,
             "age": "68",
             "value": 15
         },
         {
             "case": 41,
-            "gender": "Male",
+            "category": 0,
             "age": "38",
             "value": 15
         },
         {
             "case": 42,
-            "gender": "Female",
+            "category": 1,
             "age": "43",
             "value": 15
         },
         {
             "case": 43,
-            "gender": "Female",
+            "category": 1,
             "age": "41",
             "value": 15
         },
         {
             "case": 44,
-            "gender": "Female",
+            "category": 1,
             "age": "32",
             "value": 15
         },
         {
             "case": 45,
-            "gender": "Male",
+            "category": 0,
             "age": "54",
             "value": 15
         },
         {
             "case": 46,
-            "gender": "Male",
+            "category": 0,
             "age": "44",
             "value": 15
         },
         {
             "case": 47,
-            "gender": "Female",
+            "category": 1,
             "age": "50",
             "value": 15
         },
         {
             "case": 48,
-            "gender": "Male",
+            "category": 0,
             "age": "31",
             "value": 15
         },
         {
             "case": 49,
-            "gender": "Male",
+            "category": 0,
             "age": "35",
             "value": 15
         },
         {
             "case": 50,
-            "gender": "Male",
+            "category": 0,
             "age": "41",
             "value": 15
         },
         {
             "case": 51,
-            "gender": "Male",
+            "category": 0,
             "age": "49",
             "value": 15
         },
         {
             "case": 52,
-            "gender": "Female",
+            "category": 1,
             "age": "40",
             "value": 15
         },
         {
             "case": 53,
-            "gender": "Male",
+            "category": 0,
             "age": "31",
             "value": 15
         },
         {
             "case": 54,
-            "gender": "Female",
+            "category": 1,
             "age": "7",
             "value": 15
         },
         {
             "case": 55,
-            "gender": "Male",
+            "category": 0,
             "age": "40",
             "value": 15
         },
         {
             "case": 56,
-            "gender": "Female",
+            "category": 1,
             "age": "33",
             "value": 15
         },
         {
             "case": 57,
-            "gender": "Female",
+            "category": 1,
             "age": "39",
             "value": 15
         },
         {
             "case": 58,
-            "gender": "Female",
+            "category": 1,
             "age": "46",
             "value": 15
         },
         {
             "case": 59,
-            "gender": "Female",
+            "category": 1,
             "age": "23",
             "value": 15
         },
         {
             "case": 60,
-            "gender": "Male",
+            "category": 0,
             "age": "39",
             "value": 15
         },
         {
             "case": 61,
-            "gender": "Male",
+            "category": 0,
             "age": "38",
             "value": 15
         },
         {
             "case": 62,
-            "gender": "Female",
+            "category": 1,
             "age": "30",
             "value": 15
         },
         {
             "case": 63,
-            "gender": "Male",
+            "category": 0,
             "age": "65",
             "value": 15
         },
         {
             "case": 64,
-            "gender": "Male",
+            "category": 0,
             "age": "23",
             "value": 15
         },
         {
             "case": 65,
-            "gender": "Female",
+            "category": 1,
             "age": "57",
             "value": 15
         },
         {
             "case": 66,
-            "gender": "Female",
+            "category": 1,
             "age": "75",
             "value": 15
         },
         {
             "case": 67,
-            "gender": "Female",
+            "category": 1,
             "age": "27",
             "value": 15
         },
         {
             "case": 68,
-            "gender": "Male",
+            "category": 0,
             "age": "37",
             "value": 15
         },
         {
             "case": 69,
-            "gender": "Male",
+            "category": 0,
             "age": "34",
             "value": 15
         },
         {
             "case": 70,
-            "gender": "Female",
+            "category": 1,
             "age": "31",
             "value": 15
         },
         {
             "case": 71,
-            "gender": "Female",
+            "category": 1,
             "age": "32",
             "value": 15
         },
         {
             "case": 72,
-            "gender": "Female",
+            "category": 1,
             "age": "27",
             "value": 15
         },
         {
             "case": 73,
-            "gender": "Female",
+            "category": 1,
             "age": "29",
             "value": 15
         },
         {
             "case": 74,
-            "gender": "Male",
+            "category": 0,
             "age": "63",
             "value": 15
         },
         {
             "case": 75,
-            "gender": "Female",
+            "category": 1,
             "age": "35",
             "value": 15
         },
         {
             "case": 76,
-            "gender": "Male",
+            "category": 0,
             "age": "20",
             "value": 15
         },
         {
             "case": 77,
-            "gender": "Female",
+            "category": 1,
             "age": "33",
             "value": 15
         },
         {
             "case": 78,
-            "gender": "Male",
+            "category": 0,
             "age": "67",
             "value": 15
         },
         {
             "case": 79,
-            "gender": "Male",
+            "category": 0,
             "age": "43",
             "value": 30
         },
         {
             "case": 80,
-            "gender": "Male",
+            "category": 0,
             "age": "28",
             "value": 15
         },
         {
             "case": 81,
-            "gender": "Female",
+            "category": 1,
             "age": "28",
             "value": 15
         },
         {
             "case": 82,
-            "gender": "Female",
+            "category": 1,
             "age": "38",
             "value": 15
         },
         {
             "case": 83,
-            "gender": "Male",
+            "category": 0,
             "age": "63",
             "value": 15
         },
         {
             "case": 84,
-            "gender": "Male",
+            "category": 0,
             "age": "40",
             "value": 15
         },
         {
             "case": 85,
-            "gender": "Male",
+            "category": 0,
             "age": "77",
             "value": 15
         },
         {
             "case": 86,
-            "gender": "Male",
+            "category": 0,
             "age": "78",
             "value": 15
         },
         {
             "case": 87,
-            "gender": "Male",
+            "category": 0,
             "age": "62",
             "value": 15
         },
         {
             "case": 88,
-            "gender": "Female",
+            "category": 1,
             "age": "47",
             "value": 15
         },
         {
             "case": 89,
-            "gender": "Male",
+            "category": 0,
             "age": "50",
             "value": 15
         },
         {
             "case": 90,
-            "gender": "Female",
+            "category": 1,
             "age": "57",
             "value": 15
         },
         {
             "case": 91,
-            "gender": "Male",
+            "category": 0,
             "age": "60",
             "value": 15
         },
         {
             "case": 92,
-            "gender": "Male",
+            "category": 0,
             "age": "24",
             "value": 15
         },
         {
             "case": 93,
-            "gender": "Male",
+            "category": 0,
             "age": "36",
             "value": 15
         },
         {
             "case": 94,
-            "gender": "Male",
+            "category": 0,
             "age": "39",
             "value": 15
         },
         {
             "case": 95,
-            "gender": "Male",
-            "age": "1",
+            "category": 0,
+            "age": 1,
             "value": 15
         },
         {
             "case": 96,
-            "gender": "Male",
+            "category": 0,
             "age": "43",
             "value": 15
         },
         {
             "case": 97,
-            "gender": "Female",
+            "category": 1,
             "age": "43",
             "value": 15
         },
         {
             "case": 98,
-            "gender": "Female",
+            "category": 1,
             "age": "20",
             "value": 15
         },
         {
             "case": 99,
-            "gender": "Male",
+            "category": 0,
             "age": "38",
             "value": 15
         },
         {
             "case": 100,
-            "gender": "Male",
+            "category": 0,
             "age": "44",
             "value": 15
         },
         {
             "case": 101,
-            "gender": "Male",
+            "category": 0,
             "age": "60",
             "value": 15
         },
         {
             "case": 102,
-            "gender": "Male",
+            "category": 0,
             "age": "42",
             "value": 15
         },
         {
             "case": 103,
-            "gender": "Male",
+            "category": 0,
             "age": "31",
             "value": 15
         },
         {
             "case": 104,
-            "gender": "Female",
+            "category": 1,
             "age": "35",
             "value": 15
         },
         {
             "case": 105,
-            "gender": "Female",
+            "category": 1,
             "age": "44",
             "value": 15
         },
         {
             "case": 106,
-            "gender": "Male",
+            "category": 0,
             "age": "26",
             "value": 15
         },
         {
             "case": 107,
-            "gender": "Female",
+            "category": 1,
             "age": "54",
             "value": 15
         },
         {
             "case": 108,
-            "gender": "Female",
+            "category": 1,
             "age": "85",
             "value": 15
         },
         {
             "case": 109,
-            "gender": "Male",
+            "category": 0,
             "age": "37",
             "value": 15
         },
         {
             "case": 110,
-            "gender": "Male",
+            "category": 0,
             "age": "63",
             "value": 15
         },
         {
             "case": 111,
-            "gender": "Female",
+            "category": 1,
             "age": "54",
             "value": 15
         },
         {
             "case": 112,
-            "gender": "Female",
+            "category": 1,
             "age": "29",
             "value": 15
         },
         {
             "case": 113,
-            "gender": "Female",
+            "category": 1,
             "age": "65",
             "value": 15
         },
         {
             "case": 114,
-            "gender": "Male",
+            "category": 0,
             "age": "52",
             "value": 15
         },
         {
             "case": 115,
-            "gender": "Male",
+            "category": 0,
             "age": "19",
             "value": 15
         },
         {
             "case": 116,
-            "gender": "Male",
+            "category": 0,
             "age": "17",
             "value": 15
         },
         {
             "case": 117,
-            "gender": "Female",
+            "category": 1,
             "age": "10",
             "value": 15
         },
         {
             "case": 118,
-            "gender": "Female",
+            "category": 1,
             "age": "31",
             "value": 15
         },
         {
             "case": 119,
-            "gender": "Female",
+            "category": 1,
             "age": "31",
             "value": 15
         },
         {
             "case": 120,
-            "gender": "Female",
+            "category": 1,
             "age": "21",
             "value": 15
         },
         {
             "case": 121,
-            "gender": "Female",
+            "category": 1,
             "age": "21",
             "value": 15
         },
         {
             "case": 122,
-            "gender": "Male",
+            "category": 0,
             "age": "28",
             "value": 15
         },
         {
             "case": 123,
-            "gender": "Female",
+            "category": 1,
             "age": "18",
             "value": 15
         },
         {
             "case": 124,
-            "gender": "Male",
+            "category": 0,
             "age": "45",
             "value": 15
         },
         {
             "case": 125,
-            "gender": "Male",
+            "category": 0,
             "age": "18",
             "value": 15
         },
         {
             "case": 126,
-            "gender": "Male",
+            "category": 0,
             "age": "47",
             "value": 15
         },
         {
             "case": 127,
-            "gender": "Female",
+            "category": 1,
             "age": "24",
             "value": 15
         },
         {
             "case": 128,
-            "gender": "Male",
+            "category": 0,
             "age": "54",
             "value": 15
         },
         {
             "case": 129,
-            "gender": "Female",
+            "category": 1,
             "age": "31",
             "value": 15
         },
         {
             "case": 130,
-            "gender": "Female",
+            "category": 1,
             "age": "65",
             "value": 15
         },
         {
             "case": 131,
-            "gender": "Female",
+            "category": 1,
             "age": "28",
             "value": 15
         },
         {
             "case": 132,
-            "gender": "Male",
+            "category": 0,
             "age": "80",
             "value": 15
         },
         {
             "case": 133,
-            "gender": "Male",
+            "category": 0,
             "age": "45",
             "value": 15
         },
         {
             "case": 134,
-            "gender": "Male",
+            "category": 0,
             "age": "35",
             "value": 15
         },
         {
             "case": 135,
-            "gender": "Female",
+            "category": 1,
             "age": "35",
             "value": 15
         },
         {
             "case": 136,
-            "gender": "Male",
+            "category": 0,
             "age": "25",
             "value": 15
         },
         {
             "case": 137,
-            "gender": "Female",
+            "category": 1,
             "age": "31",
             "value": 15
         },
         {
             "case": 138,
-            "gender": "Male",
+            "category": 0,
             "age": "53",
             "value": 15
         },
         {
             "case": 139,
-            "gender": "Female",
+            "category": 1,
             "age": "26",
             "value": 15
         },
         {
             "case": 140,
-            "gender": "Female",
+            "category": 1,
             "age": "39",
             "value": 15
         },
         {
             "case": 141,
-            "gender": "Male",
+            "category": 0,
             "age": "28",
             "value": 15
         },
         {
             "case": 142,
-            "gender": "Male",
+            "category": 0,
             "age": "35",
             "value": 15
         },
         {
             "case": 143,
-            "gender": "Female",
+            "category": 1,
             "age": "87",
             "value": 15
         },
         {
             "case": 144,
-            "gender": "Male",
+            "category": 0,
             "age": "24",
             "value": 15
         },
         {
             "case": 145,
-            "gender": "Male",
+            "category": 0,
             "age": "48",
             "value": 15
         },
         {
             "case": 146,
-            "gender": "Male",
+            "category": 0,
             "age": "32",
             "value": 15
         },
         {
             "case": 147,
-            "gender": "Male",
+            "category": 0,
             "age": "43",
             "value": 15
         },
         {
             "case": 148,
-            "gender": "Male",
+            "category": 0,
             "age": "19",
             "value": 15
         },
         {
             "case": 149,
-            "gender": "Male",
+            "category": 0,
             "age": "15",
             "value": 15
         },
         {
             "case": 150,
-            "gender": "Female",
+            "category": 1,
             "age": "18",
             "value": 15
         },
         {
             "case": 151,
-            "gender": "Female",
+            "category": 1,
             "age": "25",
             "value": 15
         },
         {
             "case": 152,
-            "gender": "Female",
+            "category": 1,
             "age": "32",
             "value": 15
         },
         {
             "case": 153,
-            "gender": "Female",
+            "category": 1,
             "age": "19",
             "value": 15
         },
         {
             "case": 154,
-            "gender": "Female",
+            "category": 1,
             "age": "20",
             "value": 15
         },
         {
             "case": 155,
-            "gender": "Male",
+            "category": 0,
             "age": "48",
             "value": 15
         },
         {
             "case": 156,
-            "gender": "Male",
+            "category": 0,
             "age": "33",
             "value": 15
         },
         {
             "case": 157,
-            "gender": "Female",
+            "category": 1,
             "age": "23",
             "value": 15
         },
         {
             "case": 158,
-            "gender": "Female",
+            "category": 1,
             "age": "24",
             "value": 15
         },
         {
             "case": 159,
-            "gender": "Female",
+            "category": 1,
             "age": "27",
             "value": 15
         },
         {
             "case": 160,
-            "gender": "Female",
+            "category": 1,
             "age": "20",
             "value": 15
         },
         {
             "case": 161,
-            "gender": "Male",
+            "category": 0,
             "age": "62",
             "value": 15
         },
         {
             "case": 162,
-            "gender": "Male",
+            "category": 0,
             "age": "43",
             "value": 15
         },
         {
             "case": 163,
-            "gender": "Male",
+            "category": 0,
             "age": "52",
             "value": 15
         },
         {
             "case": 164,
-            "gender": "Male",
+            "category": 0,
             "age": "20",
             "value": 15
         },
         {
             "case": 165,
-            "gender": "Female",
+            "category": 1,
             "age": "25",
             "value": 15
         },
         {
             "case": 166,
-            "gender": "Female",
+            "category": 1,
             "age": "25",
             "value": 15
         },
         {
             "case": 167,
-            "gender": "Female",
+            "category": 1,
             "age": "22",
             "value": 15
         },
         {
             "case": 168,
-            "gender": "Female",
+            "category": 1,
             "age": "22",
             "value": 15
         },
         {
             "case": 169,
-            "gender": "Female",
+            "category": 1,
             "age": "12",
             "value": 15
         },
         {
             "case": 170,
-            "gender": "Female",
+            "category": 1,
             "age": "28",
             "value": 15
         },
         {
             "case": 171,
-            "gender": "Female",
+            "category": 1,
             "age": "29",
             "value": 15
         },
         {
             "case": 172,
-            "gender": "Male",
+            "category": 0,
             "age": "22",
             "value": 15
         },
         {
             "case": 173,
-            "gender": "Male",
+            "category": 0,
             "age": "18",
             "value": 15
         },
         {
             "case": 174,
-            "gender": "Male",
+            "category": 0,
             "age": "24",
             "value": 15
         },
         {
             "case": 175,
-            "gender": "Male",
+            "category": 0,
             "age": "23",
             "value": 15
         },
         {
             "case": 176,
-            "gender": "Male",
+            "category": 0,
             "age": "28",
             "value": 15
         },
         {
             "case": 177,
-            "gender": "Female",
+            "category": 1,
             "age": "84",
             "value": 15
         },
         {
             "case": 178,
-            "gender": "Female",
+            "category": 1,
             "age": "49",
             "value": 15
         },
         {
             "case": 179,
-            "gender": "Male",
+            "category": 0,
             "age": "21",
             "value": 15
         },
         {
             "case": 180,
-            "gender": "Female",
+            "category": 1,
             "age": "21",
             "value": 15
         },
         {
             "case": 181,
-            "gender": "Female",
+            "category": 1,
             "age": "52",
             "value": 15
         },
         {
             "case": 182,
-            "gender": "Male",
+            "category": 0,
             "age": "32",
             "value": 15
         }
