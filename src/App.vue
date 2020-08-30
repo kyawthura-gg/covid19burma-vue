@@ -23,7 +23,7 @@
         <div class="navbar-start hover-anmiated">
           <router-link class="navbar-item" to="/">Home</router-link>
           <router-link class="navbar-item" to="/cluster">Cluster</router-link>
-          <router-link class="navbar-item" to="/graphs">Graphs</router-link>
+          <!-- <router-link class="navbar-item" to="/graphs">Graphs</router-link> -->
           <router-link class="navbar-item" to="/about">About Us</router-link>
 
           <!-- <div class="navbar-item dropdown">
