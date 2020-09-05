@@ -1,5 +1,12 @@
 <template>
-  <div class="content" id="cluster-canvas" style="width: 100%;height:600px;"></div>
+  <div>
+    <div class="message is-warning" style="margin: 70px">
+      <div class="message-body">
+        <strong>Last Updated:</strong> 16 May 2020. Due to high number of confirmed cases, we are unable to collect data.
+      </div>
+    </div>
+    <div class="content" id="cluster-canvas" style="width: 100%;height:600px;"></div>
+  </div>
 </template>
 <script>
 import echarts from "echarts";
