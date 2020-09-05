@@ -1,5 +1,12 @@
 <template>
-  <div class="content" id="cluster-canvas" style="width: 100%;height:600px;"></div>
+  <div>
+    <div class="message is-warning" style="margin: 70px">
+      <div class="message-body">
+        <strong>Last Updated:</strong> 16 May 2020. Due to high number of confirmed cases, we are unable to collect data.
+      </div>
+    </div>
+    <div class="content" id="cluster-canvas" style="width: 100%;height:600px;"></div>
+  </div>
 </template>
 <script>
 import echarts from "echarts";
@@ -12,21 +19,35 @@ export default {
       var myChart = echarts.init(document.getElementById("cluster-canvas"));
       $.get("graph.json", function(webkitDep) {
         var option = {
-          tooltip: {},
-          title: {
-            text: "Patient to Patient Link Graph",
-            subtext: "Default layout",
-            top: "bottom",
-            left: "right"
+          tooltip: {
+            show: true,
+            mode: "single",
+            formatter: params => {
+              var data = params.data;
+              var gender = "Female";
+              var htmlTag = "";
+              if (data.case !== "undefined") {
+                if (data.category === 0) gender = "Male";
+                htmlTag =
+                  "Case Number: " +
+                  data.case +
+                  "<br />Age: " +
+                  data.age +
+                  "<br />Gender: " +
+                  gender;
+              }
+
+              return htmlTag;
+            }
           },
           legend: {
             data: ["Male", "Female", "Unknown"]
           },
-          animationDuration: 1500,
+          animationDuration: 500,
           animationEasingUpdate: "quinticInOut",
           series: [
             {
-              name: "Patient to Patient Link Graph",
+              // name: "Patient to Patient Link Graph",
               type: "graph",
               layout: "force",
               animation: false,
@@ -43,15 +64,15 @@ export default {
               }),
               categories: webkitDep.categories,
               force: {
-                edgeLength: 5,
-                repulsion: 40,
+                edgeLength: 10,
+                repulsion: 50,
                 gravity: 0.2
               },
-              edges: webkitDep.links,
-              lineStyle: {
-                color: "source",
-                curveness: 0
-              }
+              edges: webkitDep.links
+              // lineStyle: {
+              //   color: "#fff",
+              //   curveness: 0
+              // }
             }
           ]
         };
