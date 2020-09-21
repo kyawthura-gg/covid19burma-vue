@@ -25,36 +25,7 @@
           <router-link class="navbar-item" to="/cluster">Cluster</router-link>
           <!-- <router-link class="navbar-item" to="/graphs">Graphs</router-link> -->
           <router-link class="navbar-item" to="/about">About Us</router-link>
-
-          <!-- <div class="navbar-item dropdown">
-            <div class="dropdown-trigger">
-              <button class="button custom-button">
-                <span>More</span>
-                <span class="icon is-small">
-                  <i class="fas fa-angle-down" aria-hidden="true"></i>
-                </span>
-              </button>
-            </div>
-            <div class="dropdown-menu custom-dropmenu">
-              <div class="dropdown-content custom-dropcontent">
-                <a class="dropdown-item custom-dropdown" href="/contactus">
-                  <span>Report an issue</span>
-                </a>
-                <a class="dropdown-item custom-dropdown" href="/about">
-                  <span>About Us</span>
-                </a>
-              </div>
-            </div>
-          </div>-->
         </div>
-        <!-- <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="bottom-box" id="id_disclaimer">Disclaimer</div>
-          </div>
-          <div class="navbar-item">
-            <div class="bottom-box" id="id_faq">FAQs</div>
-          </div>
-        </div>-->
       </div>
     </nav>
     <router-view />
