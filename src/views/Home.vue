@@ -26,14 +26,18 @@
                   <span class="case-font">
                     <i class="fas fa-arrow-up fa-xs"></i>&nbsp;
                   </span>
-                  <label class="case-font" id="confirmed">{{ this.cases.td_confirmed }}</label>
+                  <label class="case-font" id="confirmed">{{
+                    this.cases.td_confirmed
+                  }}</label>
                   <p>Confirmed 🤕</p>
                 </div>
                 <div>
                   <span class="death-font">
                     <i class="fas fa-arrow-up fa-xs"></i>&nbsp;
                   </span>
-                  <label class="death-font" id="deaths">{{ this.cases.td_deaths }}</label>
+                  <label class="death-font" id="deaths">{{
+                    this.cases.td_deaths
+                  }}</label>
                   <p>Deaths 💔</p>
                 </div>
                 <div>
@@ -41,9 +45,7 @@
                     <i class="fas fa-arrow-up fa-xs"></i>&nbsp;
                   </span>
                   <label class="recover-font" id="recovered">
-                    {{
-                    this.cases.td_recovered
-                    }}
+                    {{ this.cases.td_recovered }}
                   </label>
                   <p>Recovered 🤩</p>
                 </div>
@@ -61,25 +63,26 @@
           </div>
         </div>
         <div class="column is-4" data-aos="fade-up" data-aos-delay="700">
-          <MyanmarMap></MyanmarMap>
-
-          <div class="description" style="text-align: left;"></div>
-          <div class="status-div">
-            <div>
-              <label class="status-label one_10"></label>
-              <p>1 - 10</p>
-            </div>
-            <div>
-              <label class="status-label ten_30"></label>
-              <p>10 - 30</p>
-            </div>
-            <div>
-              <label class="status-label thirty_99"></label>
-              <p>30 - 99</p>
-            </div>
-            <div>
-              <label class="status-label plus"></label>
-              <p>100+</p>
+          <div class="map-container">
+            <MyanmarMap></MyanmarMap>
+            <div class="description" style="text-align: left;"></div>
+            <div class="status-div">
+              <div>
+                <label class="status-label one_10"></label>
+                <p>1 - 10</p>
+              </div>
+              <div>
+                <label class="status-label ten_30"></label>
+                <p>10 - 30</p>
+              </div>
+              <div>
+                <label class="status-label thirty_99"></label>
+                <p>30 - 99</p>
+              </div>
+              <div>
+                <label class="status-label plus"></label>
+                <p>100+</p>
+              </div>
             </div>
           </div>
         </div>
@@ -96,14 +99,12 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <!-- @foreach ($cases as $case) -->
                   <tr v-for="state in statesOrder" :key="state.statecode">
                     <td>{{ state.state }}</td>
                     <td>{{ state.confirmed }}</td>
                     <td>{{ state.deaths }}</td>
                     <td>{{ state.recovered }}</td>
                   </tr>
-                  <!-- @endforeach -->
                 </tbody>
               </table>
             </div>
@@ -190,3 +191,11 @@ export default {
   }
 };
 </script>
+<style>
+@media only screen and (min-width: 1400px) {
+  .map-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+</style>
