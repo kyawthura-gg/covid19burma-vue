@@ -1,6 +1,15 @@
 <template>
   <div id="home">
     <div class="content">
+      <div class="message is-warning">
+        <div class="message-body">
+          <strong
+            >Due to high number of cases, following data might not be correct.
+            Please check to offical website
+            <a href="https://www.mohs.gov.mm" target="_blank"> mohs.gov.mm </a>
+          </strong>
+        </div>
+      </div>
       <div class="sub-tab columns">
         <div class="column is-3">
           <div class="total-box" data-aos="fade-right" data-aos-delay="200">
@@ -58,14 +67,14 @@
               <p class="box-title">ACTIVE 😰</p>
             </div>
           </div>
-          <div class="total-box" style="margin-top: 20px; padding:10px">
+          <div class="total-box" style="margin-top: 20px; padding: 10px">
             <ReportByDate></ReportByDate>
           </div>
         </div>
         <div class="column is-4" data-aos="fade-up" data-aos-delay="700">
           <div class="map-container">
             <MyanmarMap></MyanmarMap>
-            <div class="description" style="text-align: left;"></div>
+            <div class="description" style="text-align: left"></div>
             <div class="status-div">
               <div>
                 <label class="status-label one_10"></label>
@@ -129,11 +138,11 @@ AOS.init();
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    HelloWorld,
   },
   name: "Home",
   components: {
-    ReportByDate
+    ReportByDate,
   },
   data() {
     return {
@@ -143,25 +152,25 @@ export default {
         recovered: 0,
         td_confirmed: 0,
         td_deaths: 0,
-        td_recovered: 0
+        td_recovered: 0,
       },
       fullscreenLoading: false,
-      states: ""
+      states: "",
     };
   },
   mounted() {
     this.fetchCases();
   },
   computed: {
-    statesOrder: function() {
+    statesOrder: function () {
       return _.orderBy(this.states, "confirmed", "desc");
-    }
+    },
   },
   methods: {
     async fetchCases() {
       this.axios
         .get(`https://thantthet.github.io/covid19-api/data.json`)
-        .then(response => {
+        .then((response) => {
           var total = response.data.statewise[0];
           this.states = response.data.statewise;
           this.states.order;
@@ -172,7 +181,7 @@ export default {
           this.cases.td_deaths = total.deltadeaths;
           this.cases.td_recovered = total.deltarecovered;
           const options = {
-            duration: 5
+            duration: 5,
           };
           var total = this.cases.confirmed;
           var deaths = this.cases.deaths;
@@ -187,8 +196,8 @@ export default {
           var active = new CountUp("active", active, options);
           active.start();
         });
-    }
-  }
+    },
+  },
 };
 </script>
 <style>

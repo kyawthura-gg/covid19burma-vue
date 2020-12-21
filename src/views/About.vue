@@ -7,9 +7,15 @@
             <h1 class="title has-text-white">About Us</h1>
             <p>
               Inititative by
-              <a href="mailto:kanaiyaaryal@gmail.com">Kanhaiya Aryal</a> and his friends.
+              <a href="mailto:kanaiyaaryal@gmail.com">Kyaw Thura</a> and his
+              friends.
             </p>
-            <p>We developed "covid19burma.org" to keep track of the latest news development about the COVID-19 in Myanmar and prevent for the fake news. We aim to use technology and make information more accessible to win the fight!</p>
+            <p>
+              We developed "covid19burma.org" to keep track of the latest news
+              development about the COVID-19 in Myanmar and prevent for the fake
+              news. We aim to use technology and make information more
+              accessible to win the fight!
+            </p>
           </div>
         </div>
       </section>
