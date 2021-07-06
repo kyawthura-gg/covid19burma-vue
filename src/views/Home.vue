@@ -3,9 +3,9 @@
     <div class="content">
       <div class="message is-warning">
         <div class="message-body">
-          <strong
-            >Due to high number of cases, following data might not correct.
-            Please check to offical website
+          <strong>
+            Due to the high number of cases, the following data might not
+            correct. Please check to official website
             <a href="https://www.mohs.gov.mm" target="_blank"> mohs.gov.mm </a>
           </strong>
         </div>
